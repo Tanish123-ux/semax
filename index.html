@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Dynamic Webpage</title>
+<title>AJAX Search Suggestion</title>
 
-<script>
-function changeContent()
-{
-    document.getElementById("demo").innerHTML = "Content Updated Successfully!";
-}
-</script>
+<link rel="stylesheet" href="style.css">
+
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 
 <body>
 
-<h2>Dynamic Web Page Example</h2>
+<div class="container">
 
-<p id="demo">Original Content</p>
+<h2>Search Programming Language</h2>
 
-<button onclick="changeContent()">Ikde Daba ki</button>
+<input type="text" id="search" placeholder="Type to search...">
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
